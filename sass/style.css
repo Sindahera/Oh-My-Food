@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap");
+*, ::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  font-family: "Shrikhand", cursive;
+  text-align: center;
+  -webkit-box-shadow: 0 0 0.5rem rgba(95, 160, 190, 0.25);
+          box-shadow: 0 0 0.5rem rgba(95, 160, 190, 0.25);
+  padding: 0.3rem;
+  position: relative;
+}
+
+.ville {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1rem;
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.ville i {
+  font-size: 1.3rem;
+}
+
+/* explorer button */
+.explorer {
+  text-align: center;
+}
+
+.explorer h2 {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.explorer p {
+  font-size: 1rem;
+}
+
+.explorer button {
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #686868;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  cursor: pointer;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s;
+  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233);
+          box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233);
+}
+
+.explorer button:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  opacity: 0.85;
+}
+/*# sourceMappingURL=style.css.map */

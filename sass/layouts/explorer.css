@@ -1,0 +1,37 @@
+/* explorer button */
+.explorer {
+  text-align: center;
+}
+
+.explorer h2 {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.explorer p {
+  font-size: 1rem;
+}
+
+.explorer button {
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #686868;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
+  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  cursor: pointer;
+  -webkit-transition-duration: .25s;
+          transition-duration: .25s;
+  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233);
+          box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233);
+}
+
+.explorer button:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  opacity: 0.85;
+}
+/*# sourceMappingURL=explorer.css.map */
