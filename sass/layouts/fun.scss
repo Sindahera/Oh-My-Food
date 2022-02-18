@@ -1,0 +1,23 @@
+ 
+.fun{
+    & ol {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        @media (max-width: 767px) {
+            flex-direction: column;
+        }
+    }
+    & li {
+        background-color: #f6f6f6;
+        padding: 1rem 2rem;
+        border: 1px solid red;
+        flex-grow: 1;
+        border-radius: 1rem;
+        box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233)
+    }
+    &:hover{
+        transform: scale(1.02);
+        opacity: 0.85;
+    }
+}
