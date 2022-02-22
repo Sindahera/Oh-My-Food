@@ -107,5 +107,13 @@ header {
       -ms-flex-positive: 1;
           flex-grow: 1;
   border-radius: 1rem;
+  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233);
+          box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233);
+}
+
+.fun:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  opacity: 0.85;
 }
 /*# sourceMappingURL=style.css.map */
