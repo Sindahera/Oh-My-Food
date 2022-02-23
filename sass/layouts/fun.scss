@@ -1,23 +1,42 @@
  
 .fun{
+    counter-reset: numbers;
     & ol {
         display: flex;
         flex-wrap: wrap;
-        gap: 1rem;
-        @media (max-width: 767px) {
+        gap: 2rem;
+        @media (max-width: 1000px) {
             flex-direction: column;
         }
     }
     & li {
+        position: relative;
+        &::before {
+            content: counter(numbers);
+            counter-increment: numbers;
+            color: white;
+            background-color: #9356dc;
+            width: 2rem;
+            height: 2rem;
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            position: absolute;
+            bottom: 0.5rem;
+            left: -1rem;
+        }
         background-color: #f6f6f6;
+        list-style-type: none;
         padding: 1rem 2rem;
-        border: 1px solid red;
         flex-grow: 1;
         border-radius: 1rem;
         box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233)
-    }
-    &:hover{
-        transform: scale(1.02);
-        opacity: 0.85;
+        &:hover{
+            transform: scale(1.2);
+            opacity: 0.85;
+        }
+        & i.fas {
+            margin-right: 1rem;
+        }
     }
 }
