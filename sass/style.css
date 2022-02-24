@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  padding: 0 2rem;
+  padding: 0 0rem;
 }
 
 h2 {
@@ -86,6 +86,7 @@ header {
 }
 
 .fun {
+  padding: 2rem 1rem;
   counter-reset: numbers;
 }
 
@@ -109,6 +110,12 @@ header {
 
 .fun li {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #f6f6f6;
   list-style-type: none;
   padding: 1rem 2rem;
@@ -140,14 +147,21 @@ header {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   opacity: 0.85;
+  background-color: #f2eafb;
+}
+
+.fun li :hover i::before {
+  color: #9356dc;
 }
 
 .fun li i.fas {
   margin-right: 1rem;
+  color: #7e7e7e;
 }
 
 .menus {
   background-color: #f6f6f6;
+  padding: 2rem 2rem;
 }
 
 .menus .menus_cards {
@@ -219,5 +233,10 @@ footer h2 {
 
 footer p {
   padding: 0.2rem;
+}
+
+footer p:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

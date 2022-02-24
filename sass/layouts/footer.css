@@ -13,4 +13,9 @@ footer h2 {
 footer p {
   padding: 0.2rem;
 }
+
+footer p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 /*# sourceMappingURL=footer.css.map */

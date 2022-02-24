@@ -10,4 +10,9 @@ footer {
     p {
       padding: 0.2rem;
     }
+    p:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    
   }
