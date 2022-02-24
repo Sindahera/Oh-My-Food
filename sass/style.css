@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  padding: 0 6rem;
+  padding: 0 2rem;
 }
 
 h2 {
@@ -203,5 +203,21 @@ header {
 
 .menus .card_image-4 {
   background-image: url("/img/menu4.jpg");
+}
+
+footer {
+  background-color: #353535;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+footer h2 {
+  font-family: "Shrikhand", "sans-serif";
+  font-weight: 500;
+  padding: 1rem 0;
+}
+
+footer p {
+  padding: 0.2rem;
 }
 /*# sourceMappingURL=style.css.map */
