@@ -38,8 +38,9 @@
 
 .menus .card_image {
   height: 15rem;
-  border-radius: 1rem;
+  border-radius: 1rem 1rem 0 0;
   background-size: cover;
+  background-position: center;
 }
 
 .menus .card_image-1 {
@@ -56,5 +57,9 @@
 
 .menus .card_image-4 {
   background-image: url("/img/menu4.jpg");
+}
+
+.menus .card_description h3, .menus .card_description p {
+  padding: 0.3rem;
 }
 /*# sourceMappingURL=menus.css.map */

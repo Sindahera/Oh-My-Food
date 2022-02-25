@@ -1,4 +1,5 @@
- .menus{
+  
+ .menus {
      background-color: #f6f6f6;
      padding: 2rem 2rem;
  
@@ -28,13 +29,19 @@
      .card{
          &_image{
              height: 15rem;
-             border-radius: 1rem;
+             border-radius: 1rem 1rem 0 0;
              background-size: cover;
+             background-position: center;
          }
          @for $i from 1 through 4{
              &_image-#{$i} {
                 background-image: url("/img/menu#{$i}.jpg");
              }
          }
+         &_description { 
+            h3,p {
+              padding: 0.3rem;
+            }
+          }
      }
  }
