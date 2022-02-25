@@ -20,6 +20,12 @@ h2 {
   margin: 0;
 }
 
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -76,7 +82,7 @@ header {
   color: #fff;
   background-color: #686868;
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(147, 86, 220, 0.9)), to(rgba(255, 121, 218, 0.9)));
-  background-image: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   cursor: pointer;
   -webkit-transition-duration: .25s;
           transition-duration: .25s;
@@ -166,7 +172,8 @@ header {
 
 .menus {
   background-color: #f6f6f6;
-  padding: 2rem 2rem;
+  padding: 0rem 2rem;
+  padding-bottom: 2rem;
 }
 
 .menus .menus_cards {
@@ -225,8 +232,48 @@ header {
   background-image: url("/img/menu4.jpg");
 }
 
-.menus .card_description h3, .menus .card_description p {
-  padding: 0.3rem;
+.menus .card_footer {
+  padding: 1rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.menus .card_descrption {
+  color: inherit;
+}
+
+.menus .card i {
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.menus .card .fas {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
+  background-image: linear-gradient(to top, #9356dc, #ff79da);
+}
+
+.menus .card:hover .fas {
+  opacity: 1;
+  -webkit-transform: translateY(-50%) scale(1.2);
+          transform: translateY(-50%) scale(1.2);
 }
 
 footer {
