@@ -2,7 +2,7 @@ body {
   background-color: #f6f6f6;
 }
 
-#page-resto header_i {
+#page-resto header i {
   font-size: 2rem;
   position: absolute;
   left: 1rem;
@@ -28,6 +28,9 @@ body {
 
 #page-resto .resto__title {
   margin-top: -2rem;
+  border-radius: 2rem 2rem 0 0;
+  background-color: #f6f6f6;
+  position: relative;
 }
 
 #page-resto .resto__title h2 {
@@ -35,7 +38,6 @@ body {
   padding: 2rem 1rem;
   border-radius: 2rem 2rem 0 0;
   background-color: #f6f6f6;
-  display: inline;
 }
 
 #page-resto .resto__title i {
@@ -186,5 +188,37 @@ body {
 
 #page-resto .menus .menus__category .menu-item:hover {
   cursor: pointer;
+}
+
+#page-resto section.order {
+  height: 30vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+#page-resto section.order button {
+  color: white;
+  font-weight: 300;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  -webkit-transition: -webkit-transform 200ms;
+  transition: -webkit-transform 200ms;
+  transition: transform 200ms;
+  transition: transform 200ms, -webkit-transform 200ms;
+  margin-top: 1rem;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 1px 8px -3px #7e7e7e;
+          box-shadow: 2px 1px 8px -3px #7e7e7e;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#9356dc), to(#ff79da));
+  background-image: linear-gradient(to top, #9356dc, #ff79da);
+}
+
+#page-resto section.order button:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  opacity: 0.9;
 }
 /*# sourceMappingURL=restaurants.css.map */
