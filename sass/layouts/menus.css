@@ -4,6 +4,11 @@
   padding-bottom: 2rem;
 }
 
+.menus h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 .menus .menus_cards {
   display: -ms-grid;
   display: grid;
@@ -74,7 +79,7 @@
   border-radius: 0 0 1rem 1rem;
 }
 
-.menus .card_descrption {
+.menus .card_description {
   color: inherit;
 }
 
@@ -98,7 +103,7 @@
   background-image: linear-gradient(to top, #9356dc, #ff79da);
 }
 
-.menus .card:hover .fas {
+.menus .card .fas:hover {
   opacity: 1;
   -webkit-transform: translateY(-50%) scale(1.2);
           transform: translateY(-50%) scale(1.2);

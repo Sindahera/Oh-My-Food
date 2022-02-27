@@ -12,6 +12,8 @@
 }
 
 .explorer button {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
   border: 0;
   padding: 0.75rem 1.5rem;
   font-weight: 500;
@@ -29,8 +31,8 @@
 }
 
 .explorer button:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
   opacity: 0.85;
 }
 /*# sourceMappingURL=explorer.css.map */

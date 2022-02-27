@@ -3,6 +3,11 @@
      background-color: #f6f6f6;
      padding:0rem 2rem;
      padding-bottom: 2rem;
+
+     h2 {
+       margin-top: 1.5rem;
+       margin-bottom: 1rem;
+     }
  
      .menus_cards{
          display: grid;
@@ -48,9 +53,10 @@
           color: black;
           border-radius: 0 0 1rem 1rem;
           }
-          &_descrption {
+          &_description {
             color: inherit;
           }
+          
         i {
           font-size: 2rem;
           position: absolute;
@@ -66,7 +72,7 @@
           transition: all 200ms ease-in-out;
           background-image: linear-gradient(to top,rgba(147,86,220,1),rgba(255,121,218,1));
         }
-        &:hover .fas {
+        .fas:hover {
           opacity: 1;
           transform: translateY(-50%) scale(1.2);
         }

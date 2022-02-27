@@ -73,6 +73,8 @@ header {
 }
 
 .explorer button {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
   border: 0;
   padding: 0.75rem 1.5rem;
   font-weight: 500;
@@ -90,13 +92,14 @@ header {
 }
 
 .explorer button:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
   opacity: 0.85;
 }
 
 .fun {
   padding: 2rem 1rem;
+  background-color: white !important;
   counter-reset: numbers;
 }
 
@@ -133,8 +136,8 @@ header {
       -ms-flex-positive: 1;
           flex-grow: 1;
   border-radius: 1rem;
-  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233) .fun li;
-          box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233) .fun li;
+  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233);
+          box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233);
 }
 
 .fun li::before {
@@ -153,26 +156,32 @@ header {
   left: -1rem;
 }
 
-.fun li :hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  opacity: 0.85;
-  background-color: #f2eafb;
-}
-
-.fun li :hover i::before {
-  color: #9356dc;
-}
-
-.fun li i.fas {
+.fun i.fas {
   margin-right: 1rem;
   color: #7e7e7e;
+}
+
+.fun .njye:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  opacity: 1;
+  background-color: #f2eafb;
+  cursor: pointer;
+}
+
+.fun .njye:hover i::before {
+  color: #9356dc;
 }
 
 .menus {
   background-color: #f6f6f6;
   padding: 0rem 2rem;
   padding-bottom: 2rem;
+}
+
+.menus h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .menus .menus_cards {
@@ -245,7 +254,7 @@ header {
   border-radius: 0 0 1rem 1rem;
 }
 
-.menus .card_descrption {
+.menus .card_description {
   color: inherit;
 }
 
@@ -269,7 +278,7 @@ header {
   background-image: linear-gradient(to top, #9356dc, #ff79da);
 }
 
-.menus .card:hover .fas {
+.menus .card .fas:hover {
   opacity: 1;
   -webkit-transform: translateY(-50%) scale(1.2);
           transform: translateY(-50%) scale(1.2);

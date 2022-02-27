@@ -1,5 +1,6 @@
 .fun {
   padding: 2rem 1rem;
+  background-color: white !important;
   counter-reset: numbers;
 }
 
@@ -36,8 +37,8 @@
       -ms-flex-positive: 1;
           flex-grow: 1;
   border-radius: 1rem;
-  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233) .fun li;
-          box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233) .fun li;
+  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233);
+          box-shadow: 0.25rem 0.25rem 10px rgba(5, 0, 3, 0.233);
 }
 
 .fun li::before {
@@ -56,19 +57,20 @@
   left: -1rem;
 }
 
-.fun li :hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  opacity: 0.85;
-  background-color: #f2eafb;
-}
-
-.fun li :hover i::before {
-  color: #9356dc;
-}
-
-.fun li i.fas {
+.fun i.fas {
   margin-right: 1rem;
   color: #7e7e7e;
+}
+
+.fun .njye:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  opacity: 1;
+  background-color: #f2eafb;
+  cursor: pointer;
+}
+
+.fun .njye:hover i::before {
+  color: #9356dc;
 }
 /*# sourceMappingURL=fun.css.map */
