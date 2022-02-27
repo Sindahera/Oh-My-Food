@@ -51,10 +51,10 @@ body {
       transition: all 200ms ease-in-out;
       background-image: linear-gradient(to top,rgba(147,86,220,1),rgba(255,121,218,1));
     }
-    &:hover .fas {
-      opacity: 1;
-      transform: translateY(-50%) scale(1.2);
-    }      
+    .fas:hover {
+            opacity: 1;
+            transform: translateY(-50%) scale(1.2);
+          }   
     
   }
 
@@ -87,12 +87,7 @@ body {
       overflow: hidden;
 
       .menu-item {
-        $numberOfItems: 3;
-        @for $i from 1 through $numberOfItems {
-          &:nth-child(#{$i}) {
-            animation-delay: 100ms * $i;
-          }
-        }
+         
         display: flex;
         background-color: white;
         border-radius: 1rem;
@@ -130,7 +125,7 @@ body {
           width: $button-width;
           transition: margin-right 0.5s;
           i {
-            $size: 1rem;
+            $size: 2rem;
             display: grid;
             place-items: center;
             background: white;
@@ -142,10 +137,23 @@ body {
         }
         &:hover {
           cursor: pointer;
+          .menu-item__check {
+            margin-right: 0;
+        }
+        i {
+          transform: rotate(-360deg);
+          transition-duration: 0.5s;
         }
       }
+      
     }
   }
+  @for $i from 0 to 3 {
+    .delay-#{$i}{
+      animation-delay: #{$i/10}s;
+    }
+  }
+}
   
   section.order {
     height: 30vh;
@@ -171,6 +179,7 @@ body {
   
   }
 }
+
 
 
 
