@@ -1,15 +1,15 @@
-.menus {
+#homepage .menus {
   background-color: #f6f6f6;
   padding: 0rem 2rem;
   padding-bottom: 2rem;
 }
 
-.menus h2 {
+#homepage .menus h2 {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
 }
 
-.menus .menus_cards {
+#homepage .menus .menus_cards {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -18,17 +18,17 @@
 }
 
 @media (max-width: 1100px) {
-  .menus .menus_cards {
+  #homepage .menus .menus_cards {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
 }
 
-.menus .menus_cards .new {
+#homepage .menus .menus_cards .new {
   position: relative;
 }
 
-.menus .menus_cards .new::before {
+#homepage .menus .menus_cards .new::before {
   content: "Nouveau";
   position: absolute;
   height: 2rem;
@@ -42,30 +42,30 @@
   top: 1rem;
 }
 
-.menus .card_image {
+#homepage .menus .card_image {
   height: 15rem;
   border-radius: 1rem 1rem 0 0;
   background-size: cover;
   background-position: center;
 }
 
-.menus .card_image-1 {
+#homepage .menus .card_image-1 {
   background-image: url("/img/menu1.jpg");
 }
 
-.menus .card_image-2 {
+#homepage .menus .card_image-2 {
   background-image: url("/img/menu2.jpg");
 }
 
-.menus .card_image-3 {
+#homepage .menus .card_image-3 {
   background-image: url("/img/menu3.jpg");
 }
 
-.menus .card_image-4 {
+#homepage .menus .card_image-4 {
   background-image: url("/img/menu4.jpg");
 }
 
-.menus .card_footer {
+#homepage .menus .card_footer {
   padding: 1rem;
   position: relative;
   display: -webkit-box;
@@ -79,11 +79,11 @@
   border-radius: 0 0 1rem 1rem;
 }
 
-.menus .card_description {
+#homepage .menus .card_description {
   color: inherit;
 }
 
-.menus .card i {
+#homepage .menus .card i {
   font-size: 2rem;
   position: absolute;
   right: 1rem;
@@ -92,7 +92,7 @@
           transform: translateY(-50%);
 }
 
-.menus .card .fas {
+#homepage .menus .card .fas {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -103,7 +103,7 @@
   background-image: linear-gradient(to top, #9356dc, #ff79da);
 }
 
-.menus .card .fas:hover {
+#homepage .menus .card .fas:hover {
   opacity: 1;
   -webkit-transform: translateY(-50%) scale(1.2);
           transform: translateY(-50%) scale(1.2);
