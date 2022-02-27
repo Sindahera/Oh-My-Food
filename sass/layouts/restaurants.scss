@@ -87,6 +87,13 @@ body {
       overflow: hidden;
 
       .menu-item {
+
+        $numberOfItems: 3;
+        @for $i from 1 through $numberOfItems {
+          &:nth-child(#{$i}) {
+            animation-delay: 300ms * $i;
+          }
+        }
          
         display: flex;
         background-color: white;
@@ -145,12 +152,17 @@ body {
           transition-duration: 0.5s;
         }
       }
-      
-    }
-  }
-  @for $i from 0 to 3 {
-    .delay-#{$i}{
-      animation-delay: #{$i/10}s;
+
+      @keyframes appear {
+        0% {
+          transform: translateY(50%);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
     }
   }
 }
