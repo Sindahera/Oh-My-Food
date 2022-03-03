@@ -351,6 +351,7 @@ footer h2 {
   font-family: "Shrikhand", "sans-serif";
   font-weight: 500;
   padding: 1rem 0;
+  margin-left: 0;
 }
 
 footer p {
@@ -369,11 +370,12 @@ body {
 #page-resto header i {
   font-size: 2rem;
   position: absolute;
+  padding: 1rem;
   left: 1rem;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  font-size: 20px;
+  font-size: 30px;
   -webkit-transition: -webkit-transform 200ms;
   transition: -webkit-transform 200ms;
   transition: transform 200ms;
