@@ -31,7 +31,7 @@
             right: 1rem;
             top: 1rem;
           }
-     }
+        }
      .card{
          &_image{
              height: 15rem;
@@ -39,12 +39,26 @@
              background-size: cover;
              background-position: center;
          }
-         @for $i from 1 through 4{
-             &_image-#{$i} {
-                background-image: url("img/menu#{$i}.jpg");
-             }
+         &_image-1 {
+           background-image: url("../../img/menu1.jpg");
          }
-         &_footer {
+         &_image-2 {
+          background-image: url("../../img/menu2.jpg");
+        }
+        &_image-3 {
+          background-image: url("../../img/menu3.jpg");
+        }
+        &_image-4 {
+          background-image: url("../../img/menu4.jpg");
+        }
+         
+         
+         
+         
+         
+        
+        
+        &_footer {
           padding: 1rem;
           position: relative;
           display: flex;
@@ -52,29 +66,37 @@
           background-color: white;
           color: black;
           border-radius: 0 0 1rem 1rem;
-          }
+        }
           &_description {
             color: inherit;
           }
           
-        i {
-          font-size: 2rem;
-          position: absolute;
-          right: 1rem;
-          top: 50%;
-          transform: translateY(-50%);
-        }
-        .fas {
-          color: transparent;
-          background-clip: text;
-          -webkit-background-clip: text;
-          opacity: 0;
-          transition: all 200ms ease-in-out;
-          background-image: linear-gradient(to top,rgba(147,86,220,1),rgba(255,121,218,1));
-        }
-        .fas:hover {
-          opacity: 1;
+          i {
+            font-size: 2rem;
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+          .fas {
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            opacity: 0;
+            transition: all 200ms ease-in-out;
+            background-image: linear-gradient(to top,rgba(147,86,220,1),rgba(255,121,218,1));
+          }
+          .fas:hover {
+            opacity: 1;
           transform: translateY(-50%) scale(1.2);
         }
-     }
- }
+      }
+    }
+
+  
+
+
+
+
+
+      
