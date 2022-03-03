@@ -282,19 +282,19 @@ header {
 }
 
 .menus .card_image-1 {
-  background-image: url("../../menu1.jpg");
+  background-image: url("../../img/menu1.jpg");
 }
 
 .menus .card_image-2 {
-  background-image: url("../../menu2.jpg");
+  background-image: url("../../img/menu2.jpg");
 }
 
 .menus .card_image-3 {
-  background-image: url("../../menu3.jpg");
+  background-image: url("../../img/menu3.jpg");
 }
 
 .menus .card_image-4 {
-  background-image: url("../../menu4.jpg");
+  background-image: url("../../img/menu4.jpg");
 }
 
 .menus .card_footer {
@@ -351,7 +351,6 @@ footer h2 {
   font-family: "Shrikhand", "sans-serif";
   font-weight: 500;
   padding: 1rem 0;
-  margin-left: 0;
 }
 
 footer p {
