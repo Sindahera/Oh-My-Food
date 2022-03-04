@@ -1,7 +1,7 @@
   
  .menus {
      background-color: #f6f6f6;
-     padding:0rem 2rem;
+     padding: 2rem 1rem;
      padding-bottom: 2rem;
 
      h2 {
@@ -12,7 +12,8 @@
      .menus_cards{
          display: grid;
          grid-template-columns: (1fr 1fr);
-         gap: 2rem; 
+         column-gap: 2rem;
+         row-gap: 2rem; 
          @media (max-width: 1100px) {
             grid-template-columns: (1fr);
          }
