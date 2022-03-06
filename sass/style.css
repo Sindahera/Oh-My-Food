@@ -59,6 +59,14 @@ header {
   font-size: 1.3rem;
 }
 
+.textarea {
+  border: none;
+  background-color: transparent;
+  color: #000;
+  font: bold 24px Roboto,sans-serif;
+  outline: none;
+}
+
 /* explorer button */
 .explorer {
   text-align: center;
