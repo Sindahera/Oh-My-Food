@@ -262,5 +262,7 @@ body {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
   opacity: 0.9;
+  -webkit-box-shadow: 0.25rem 0.25rem 12px rgba(0, 0, 0, 0.9);
+          box-shadow: 0.25rem 0.25rem 12px rgba(0, 0, 0, 0.9);
 }
 /*# sourceMappingURL=restaurants.css.map */
