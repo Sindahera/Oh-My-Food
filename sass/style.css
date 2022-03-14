@@ -313,7 +313,7 @@ header {
   background-image: url("../../img/menu4.jpg");
 }
 
-.menus .card nav {
+.menus .card .mini-footer {
   padding: 1rem;
   position: relative;
   display: -webkit-box;
@@ -328,7 +328,7 @@ header {
   color: inherit;
 }
 
-.menus .card nav i {
+.menus .card .mini-footer i {
   font-size: 2rem;
   position: absolute;
   right: 1rem;
@@ -337,7 +337,7 @@ header {
           transform: translateY(-50%);
 }
 
-.menus .card nav .fas {
+.menus .card .mini-footer .fas {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -348,7 +348,7 @@ header {
   background-image: linear-gradient(to top, #9356dc, #ff79da);
 }
 
-.menus .card nav .fas:hover {
+.menus .card .mini-footer .fas:hover {
   opacity: 1;
   -webkit-transform: translateY(-50%) scale(1.2);
           transform: translateY(-50%) scale(1.2);
@@ -452,8 +452,8 @@ body {
 #page-resto .menus {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media (max-width: 64rem) {

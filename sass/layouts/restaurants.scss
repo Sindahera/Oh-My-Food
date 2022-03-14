@@ -68,7 +68,7 @@ body {
   }
   .menus {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     //gap: 1rem;
     @media (max-width: 64rem) {
       grid-template-columns: 1fr;

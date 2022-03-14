@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
  
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon//favicon-32x32.png">
@@ -28,11 +28,11 @@
     </header>
 
     <main>
-        <article>
+        
 
             <!--LOCALISATION PART-->
 
-            <section class="ville">
+            <div class="ville">
                 <i class="fas fa-map-marker-alt"></i>
                     <input
                       class="textarea"
@@ -40,101 +40,93 @@
                       placeholder="Paris, Belleville"
                       value="Paris, Belleville"
                     />
-            </section>
+            </div>
             
             <!--INFORMATION PART-->
             
-            <section class="explorer">
+            <article class="explorer">
                 <h2>Réservez le menu qui <br>
                      vous convient</h2>
                 <p class="loader"></p>
                 <p>Découvrez des restaurants d'exception, séléctionnés par nos soins</p>
                 <button class="gradient">Explorer nos restaurants</button>
-            </section>
+            </article>
 
             <!--OPERATION PART-->
 
-            <section class="fun">
+            <article class="fun">
                 <h2>Fonctionnement</h2>
                 <ol>
                     <li class="njye"><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</li>
                     <li class="njye"><i class="fas fa-list-ul"></i>Composez votre menu</li>
                     <li class="njye"><i class="fas fa-store"></i>Dégustez au restaurant</li>
                 </ol>
-            </section>
-        </article>
+            </article>
+         
 
         <!--Restaurants PART-->
 
          <article class="menus">
              <h2>Restaurants</h2>
-             <article class="menus_cards">
+             <nav class="menus_cards">
                   
                     <!--CARD RESTO 1-->
-                    <article class="card new">
-                        <a href="./restaurant1.html" >
-                            <section class="card_image card_image-1"></section>  
-                            <section>
-                                <nav>
-                                    <aside>
+                        <a class="card new" href="./restaurant1.html" >
+                            <div class="card_image card_image-1"></div>  
+                             
+                                <div class="mini-footer">
+                                    <div>
                                         <h3>La palette du gout</h3>
                                             <p>Ménilmontant</p>
-                                    </aside>
+                                    </div>
                                     <i class="far fa-heart"></i>
                                     <i class="fas fa-heart"></i>
-                                </nav>
-                            </section>  
+                                </div>
+                             
                         </a>
-                    </article>
-
+                    
                     <!-- CARD RESTO 2-->
-                    <article class="card new">
-                        <a href="./restaurant2.html">
-                            <section class="card_image card_image-2"></section>
-                                <nav>
-                                    <aside>
+                       <a class="card new" href="./restaurant2.html">
+                            <div class="card_image card_image-2"></div>
+                                <div class="mini-footer">
+                                    <div>
                                         <h3>La note enchantée</h3>
                                         <p>Charonne</p>
-                                    </aside>
+                                    </div>
                                     <i class="far fa-heart"></i>
                                     <i class="fas fa-heart"></i>
-                                </nav>
+                                </div>
                         </a>
-                    </article>
+                     
 
                     <!-- CARD RESTO 3-->
-                    <article class="card">
-                        <a href="./restaurant3.html">
-                            <section class="card_image card_image-3"></section>
-                            <nav>
-                                <aside>
+                        <a class="card" href="./restaurant3.html">
+                            <div class="card_image card_image-3"></div>
+                            <div class="mini-footer">
+                                <div>
                                     <h3>À la française</h3>
                                     <p>Cité Rouge</p>
-                                </aside>
+                                </div>
                                 <i class="far fa-heart"></i>
                                 <i class="fas fa-heart"></i>
-                            </nav>
+                            </div>
                         </a>
-                    </article>
-
+                    
                     <!-- CARD RESTO 4-->
-                    <article class="card">
-                        <a href="./restaurant4.html">
-                            <section class="card_image card_image-4"></section>
-                            <nav>
-                                <aside>
+                    <a class="card" href="./restaurant4.html">
+                            <div class="card_image card_image-4"></div>
+                            <div class="mini-footer">
+                                <div>
                                     <h3>Le délice des sens</h3>
                                     <p>Folie-Méricourt</p>
-                                </aside>
+                                </div>
                                 <i class="far fa-heart"></i>
                                 <i class="fas fa-heart"></i>
-                            </nav>
-                        </a>
-                    </article>
-
-                </article>
+                            </div>
+                    </a>
+             </nav>
              
-            </article>
+         </article>
     </main>
     <footer>
         <nav>
@@ -148,9 +140,9 @@
                   Devenir partenaire
                 </p>
                 <p>Mentions légales</p>
-                <address>
+                <p>
                   <a href="mailto:sindaherarichard@outlook.com">Contact</a>
-                </address>
+                </p>
         </nav>
     </footer>
     
