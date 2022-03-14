@@ -609,14 +609,14 @@ body {
   }
 }
 
-#page-resto section.order {
+#page-resto .order {
   height: 30vh;
   display: -ms-grid;
   display: grid;
   place-items: center;
 }
 
-#page-resto section.order button {
+#page-resto .order button {
   color: white;
   font-weight: 300;
   font-size: 1.5rem;
@@ -635,7 +635,7 @@ body {
   background-image: linear-gradient(to top, #9356dc, #ff79da);
 }
 
-#page-resto section.order button:hover {
+#page-resto .order button:hover {
   opacity: 0.9;
   -webkit-box-shadow: 0.25rem 0.25rem 12px rgba(0, 0, 0, 0.9);
           box-shadow: 0.25rem 0.25rem 12px rgba(0, 0, 0, 0.9);
